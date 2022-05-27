@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> A View to the Past. </u></h2>
+		<p>
+			As you sit amongst the grass of the land around you, you bare witness to all kinds of creatures. Beings of bright, florescent colours, a field of the greenest grass ever seen, garnished with flowers and life. Creatures of all types
+			trouncing around with graceful fervor. There are a series of buildings; one rising 2 stories high, covered in yellow and orange tiles that were patterned to create an a piece of art spanning the width of its base floor. The people wore masks
+			that hid their true identities, and either dark grey or bright white cloaks that graced their shoulders, flowing down to their feet. This place had an air of uncertainty to it. A future yet unbound and unknown.
+		</p>
+		<div style="text-align:center">
+			<a class="button" href="FirstExplore1.html">Stand up?</a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

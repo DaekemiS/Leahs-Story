@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The First Age </u></h2>
+		<p>
+			As you trudge through this etherial landscape of lushous beauty and hope, she is leading you closer to this man. He is crading a cobalt haired young girl, shuddering and crying, claiming she cannot tell the truth.
+			Telling him she cannot hurt him. There is confusion in the mans eyes, and fear in hers. The blue bird lands on the girl's shoulder before turning to you. Before you, the man bares a desperate frown, and cradles this girl, making a break for a spire
+			he seemed to create out of nothingness. He is chased and there is naught but chaos before your eyes. <br /> <br />
+
+			'A land unburdened by endless creativity and questions. They sought to know what lay beyond the stars, what the meaning of life may be... and when the answer was brought to them, a seed was sown that would bare heroes to its root.' She pauses.
+			There is hesistation in her voice before she speaks, just this once. 'That child was me. I brought this answer; but now to others I bring the places I based it on, that others may see the same truth.' <br /><br />
+
+			Above, a fight raged on with a blinding flash of light and a grey flicker dancing into the endless. As this flicker faded from sight, so did the rest of the world; twisting around you and fading into nothingness.
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SixthExplore1.html">Follow her!</a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

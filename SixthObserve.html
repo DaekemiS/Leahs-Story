@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Sixth End </u></h2>
+		<p>
+			Around you, ships and cities lay derelict. The wood is torn and stripped, or rotted to nothing but pulp and swelling. There's shattered stones and broken glass spread everywhere, and the smell of what remains of the people who passed.
+			The dankness seemed to swallow you up as if the rot consumed not just things and people, but thoughts and emotions. It was a constant burdening horror here. A sad future in which life itself became its own enemy; a prolonged despair.
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SixthExplore2.html"> Trail the bluebird? </a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

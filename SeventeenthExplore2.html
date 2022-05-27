@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Seventeenth End </u></h2>
+		<p>
+			Fumbling through this utopian land, you would find the bluebird once more, color slowly draining from her feathers as the same woman from before ventured along the same journey you did. She would vanquish many of these creatures, these
+			flawless horrors would fall beneath her blade and her party's wishes. Even the largest of them, a 'Ra-La', as gathered from their various hopeful calls, would eventually be felled by them. They would defeat all the things dooming another race;
+			yet again as soon as this deed would be complete, she would vanish. Yet the bird, who remained, undertook a change. She faded, completely, to a lifeless grey while emmitting a consistent glow. <br /> </br>
+
+			'These people created a perfect world. They had everything, a world so far beyond hope and joy that despair and death was the only answer. And yet seeing this before, she charged yet on. The world would remember her for heroism, but
+			all she has done is condemn everyone to a persistent, definate future of decay' she scowled. It was raw, pure hatred. 'Don't you see? Life breeds death. Joy breeds sadness. Hope breeds despair...?' She wept, smiling, as the light from this
+			glorious world faded away leaving naught but the emptiness of space, and an island of the last world.
+
+			And then, the light shone...
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="TheEnd.html"> Touch it...? </a>
+		</div>
+
+	</div>
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

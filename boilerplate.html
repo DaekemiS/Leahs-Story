@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The -- End</u></h2>
+		<p>
+
+		</p>
+
+	</div>
+
+	
+	
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+        const audio = document.querySelector("audio");
+
+        function toggleAudio() {
+            if (audio.paused) audio.play();
+            else audio.pause();
+        }
+	</script>
+
+</body>
+
+</html>

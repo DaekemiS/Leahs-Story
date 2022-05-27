@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Seventeenth End </u></h2>
+		<p>
+			Around you, a stunning vista of golden beauty rolls on forever. It almost seems unreal; like the Kingdom of the Sun itself was real. The grass soft like a blanket of lushous linen and a gloriously blue sky to blanket it. Around this sky
+			shone almost perfect clouds. The world they had created was truely perfect, the exact idea of a utopia that would never end; yet they would still tarnish it with their own blood and bodies. They would create these creatures of purest
+			violence still in a visage of flawless art. On the ground you found a tag too large to be worn by a person. It read 'The Last Mercy'.
+
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SeventeenthExplore2.html"> Trail the bluebird? </a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

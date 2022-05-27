@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Seventeenth End </u></h2>
+		<p>
+			Around you, the world appeared a golden hue. White and marble structures still in-tact took hold of your vision as the greater picture still faded into view. The soft flowing of the yellow grass graced your body, and the bluebird
+			revelled in its beauty before she spoke. <br /> <br />
+
+			'Here, a world existed without struggle. No one was forced to face the worlds trials, strifes or challenges; and so no one found its joys. Life had become so easy that they became apethetic, nothing truely had merit or meaning. So they aspired
+			one final time to create creatures with the greatest gift of all, lost to years long past...', and as she fluttered away, graceful beasts roamed, blood and flesh stuck to their claws as their silky manes stood open to the light. <br /> <br />
+
+			As expected, she fluttered between marble columns and took to the skies, once again beckoning that you follow.
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SeventeenthExplore2.html"> Trail the bluebird? </a>
+			<a class="button" href="SeventeenthObserve.html"> Look around. </a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

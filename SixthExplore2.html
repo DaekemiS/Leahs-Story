@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Sixth End </u></h2>
+		<p>
+			The bluebird sails through a torn and destroyed reality, a people festering and dying alongside this ideal world they created. It was a mess, of true despair. It was abnormal, it was hideous, and it was real. And yet, brought before
+			a festering nightmare, there stood a woman fighting back against it. She fought, alongside others, beckoning that they forge ahead, and brought lo a creature of magnitude intent on spreading this rot forth. As fast as she had been recognised,
+			however she was gone. <br /><br />
+
+			The bluebird once again spoke, clear and true. 'The nightmares that consumed this place were of unique design to their answer unto death. There would be others. Many others. And it would continue this way, forever.', and as those words
+			parted from her beak, the world once again swirled.
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SeventeenthExplore1.html"> ???? </a>
+		</div>
+
+	</div>
+
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

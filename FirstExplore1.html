@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> Lost in the Last. </u></h2>
+		<p>
+			As you rise, the soft, fluttering of the self-same bluebird who led you here falls upon your ears. She dances through the air, shooting off to a building off in the distance. <br /><br />
+			Next to it, a tall figure stands forlorn; staring out into the endless expanse above. He is muttering, but that's about all you can make out. After a few moments to gather your barings, you notice your legs have finally ceased shaking
+			and you have regained your balance. The only viable option for now would be to follow this bird and be lead unto its future.
+		</p>
+		<div style="text-align:center">
+			<a class="button" href="FirstExplore2.html">Follow her!</a>
+		</div>
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

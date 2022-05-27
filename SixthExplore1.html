@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The Sixth End </u></h2>
+		<p>
+			Where you once saw a beautiful expanse now lay a torn, festering planet. Buildings and places were derelect, there was almost nothing but the fractured remains of humanity. Once, it had seemed, their craftsmanship was unrivaled.
+			but now it was fragmented and rotting. The bluebird flew down, once again with a story in her eye. She stopped and fluttered. 'Here was a beautiful, blue star clinging deeply to life. They saw the answer to death, and so they laughed.
+			However, in time they would live for too long and spite the life they led. So they created an illness, that would rot and decay, until all that remained wished they had not at all.' <br /><br />
+			The words felt heavy like a cement bag dropped from the heavens. Still yet, there was more to be seen. The bird darts off into the future that lay ahead; leaving you alone.
+		</p>
+
+		<div style="text-align:center">
+			<a class="button" href="SixthExplore2.html">Chase her?</a>
+			<a class="button" href="SixthObserve.html">Look around.</a>
+		</div>
+
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>

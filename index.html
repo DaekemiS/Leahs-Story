@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="story.css"/>
+
+	<title> Leah's Interactive Story</title>
+
+</head>
+
+<body>
+	<h1> Etherys / The End </h1>
+	<div class="main">
+		<h2><u> The First Age </u></h2>
+		<p>
+			It began in a shining light consumed into nothingness. A swirling darkness with naught but a soft, blue bird. She beckons you. Follow. Follow... And as you drift across this vast expanse against your will, she speaks.
+			<br /> <br /> 'Were you told the tale of the bluebird? As she flew, through countless stars? I wouldn't have thought so; its a story long forgotten in time, told through countless memories and the feelings of hope and despair:
+			It began in a time so far beyond our reckoning, that you could say it started ours. It was a world: full of light, and hope. Of creation, of magic. Etherys.' <br /><br />
+			As the bird swept through stars dead and gleaming, the tug of reality pulled you unto this world. Trees blossomsed, creatures bizzare and beautiful roamed the land... and a man. His face burdened with duty as he awaits the return of a loved
+			one... Here, you find yourself with a body. You're dressed head to toe in old garbs, seemingly a tender of these creatures. It is... unique, to say the least.
+
+		</p>
+		<div style="text-align:center">
+			<a class="button" href="FirstExplore1.html">Stand up?</a>
+			<a class="button" href="FirstObserve.html">Look around.</a>
+		</div>
+	</div>
+
+
+	<button onclick="toggleAudio()">Toggle audio</button>
+	<audio src="FantasyRiff.mp3" loop>Audio not supported.</audio>
+
+	<!-- Scripts -->
+	<script>
+		const audio = document.querySelector("audio");
+
+		function toggleAudio() {
+			if (audio.paused) audio.play();
+			else audio.pause();
+		}
+	</script>
+
+</body>
+
+</html>
